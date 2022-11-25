@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container-nav {
+  height: 10vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 8fr 3fr;
+}
+
+.logo {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginas {
+  display: flex;
+  -moz-column-gap: 3vh;
+       column-gap: 3vh;
+  max-width: 100%;
+}
+
+.iconos {
+  display: flex;
+  -moz-column-gap: 1vh;
+       column-gap: 1vh;
+  justify-content: flex-end;
+  padding-right: 3vw;
+}
+.iconos small {
+  display: none;
+}
+
+.boton-nav {
+  border: 0;
+  background-color: white;
+  font-weight: bold;
+}
+.boton-nav:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.5vh;
+}
+
+.icono {
+  border: 0;
+  background-color: white;
+}
