@@ -58,35 +58,6 @@ body {
   width: 2rem;
 }
 
-@media screen and (max-width: 900px) {
-  .paginas {
-    display: none;
-  }
-  .location {
-    display: none;
-  }
-  .user {
-    display: none;
-  }
-  .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .container-nav {
-    grid-template-columns: 1fr 8fr 1fr;
-  }
-  .compra {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
 .container-car {
   display: flex;
   flex-direction: row;
@@ -128,7 +99,7 @@ h5 {
 
 .productos-subtitle {
   color: #111;
-  width: 50rem;
+  width: 70%;
 }
 
 .productos-intro {
@@ -148,4 +119,48 @@ h5 {
 .producto-card-texto {
   text-align: left;
   padding-left: 2rem;
+}
+
+.container-tabla {
+  padding-top: 15vh;
+}
+
+table {
+  width: 100%;
+}
+table img {
+  width: 32%;
+}
+
+@media screen and (max-width: 900px) {
+  .paginas {
+    display: none;
+  }
+  .location {
+    display: none;
+  }
+  .user {
+    display: none;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-nav {
+    grid-template-columns: 1fr 8fr 1fr;
+  }
+  .compra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .productos-cards {
+    grid-template-columns: 1fr 1fr;
+  }
 }
